@@ -11,7 +11,7 @@ public class TestMesh {
 
         System.out.println("OFF\n# Test Start");
 
-        Mesh mesh = new Mesh ("data/cube_trigs_color.off") ;
+        Mesh mesh = new Mesh ("/cube_trigs_color.off") ;
 //        Transform rend = new Transform();
     
         Vector[] vertices = mesh.getVertices ();

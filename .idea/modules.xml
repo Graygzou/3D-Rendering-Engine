@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Projet_Rendu.iml" filepath="$PROJECT_DIR$/.idea/Projet_Rendu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3D-Rendering-Engine.iml" filepath="$PROJECT_DIR$/3D-Rendering-Engine.iml" />
     </modules>
   </component>
 </project>
