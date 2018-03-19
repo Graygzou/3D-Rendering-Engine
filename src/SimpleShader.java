@@ -5,6 +5,8 @@ import java.awt.*;
 /**
  * Simple shader that just copy the interpolated color to the screen.
  * @author: cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class SimpleShader extends Shader {
 

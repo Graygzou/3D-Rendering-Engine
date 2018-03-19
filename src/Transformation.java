@@ -3,6 +3,8 @@ import algebra.*;
 
 /**
  * author: cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class Transformation  {
 

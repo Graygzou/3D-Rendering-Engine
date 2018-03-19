@@ -2,15 +2,15 @@
 # object filename:
 data/mesh/Basics/colored_stfdbunny.off
 # camera position:
-2.0 2.0 3.0
+-5.0 1.0 5.0
 # camera looks at:
 0.0 0.1 0.0
 # camera's y vector:
 0.0 -1.0 0.0
 # focal length:
-5000
+9000
 # w and h (pixels):
-640 480
+540 580
 # ambient light intensity Ia
 0.5
 # point light : 3D coordinates and ligth intensity (x, y, z, Id)
