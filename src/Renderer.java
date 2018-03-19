@@ -170,7 +170,7 @@ public class Renderer {
         screen.clearBuffer ();
         shader.reset ();
         TextureShader texShader = new TextureShader (screen);
-        texShader.setTexture ("data/world_map.jpg");
+        texShader.setTexture (args[1]);
         shader = texShader;
         rasterizer.setShader (texShader);
         setLightingEnabled (true);
@@ -183,7 +183,7 @@ public class Renderer {
         shader.reset ();
         texShader.reset ();
         texShader.setCombineWithBaseColor (true);
-        texShader.setTexture ("data/world_map.jpg");
+        texShader.setTexture (args[1]);
         shader = texShader;
         rasterizer.setShader (texShader);
         setLightingEnabled (true);

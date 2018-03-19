@@ -1,5 +1,7 @@
 
 import java.io.* ;
+import java.util.Random;
+
 import algebra.*;
 
 /**
@@ -50,6 +52,9 @@ public class Mesh {
 		vertices = new Vector[verts_nb];
 		faces = new int[3*faces_nb];
 		colors = new double[3*verts_nb];
+
+		Random random = new Random();
+
 		for (int i = 0; i < verts_nb; i++ ){
 
 			r = nextLine(in);
@@ -60,9 +65,19 @@ public class Mesh {
 			vertices[i].set (1, new Double (sar[1]).doubleValue());
 			vertices[i].set (2, new Double (sar[2]).doubleValue());
 			vertices[i].set (3, 1.0);
-			colors[3 * i + 0] = new Double(sar[3]).doubleValue();
-			colors[3 * i + 1] = new Double(sar[4]).doubleValue();
-			colors[3 * i + 2] = new Double(sar[5]).doubleValue();
+
+			if(sar.length > 4 ) {
+				// Retrieve the specified color
+				colors[3 * i + 0] = new Double(sar[3]).doubleValue();
+				colors[3 * i + 1] = new Double(sar[4]).doubleValue();
+				colors[3 * i + 2] = new Double(sar[5]).doubleValue();
+			} else {
+				// Put a random color
+				colors[3 * i + 0] = random.nextDouble();
+				colors[3 * i + 1] = random.nextDouble();
+				colors[3 * i + 2] = random.nextDouble();
+			}
+
 			/* optionnal texture coordinates */
 			if (sar.length >= 8) {
 				if (texCoords == null) {
@@ -81,11 +96,16 @@ public class Mesh {
 
 			int en = new Integer(sar[0]).intValue();
 			if (en != 3) {
-				throw new IOException("Non-triangular meshes not supported.");
+				throw new IOException("Non-triangular meshes not supported yet.");
+				// Non-triangular meshes
+				// TODO
+			} else {
+				// triangular meshes
+				faces[3 * i + 0] =  new Integer(sar[1]).intValue();
+				faces[3 * i + 1] =  new Integer(sar[2]).intValue();
+				faces[3 * i + 2] =  new Integer(sar[3]).intValue();
 			}
-			faces[3 * i + 0] =  new Integer(sar[1]).intValue();
-			faces[3 * i + 1] =  new Integer(sar[2]).intValue();
-			faces[3 * i + 2] =  new Integer(sar[3]).intValue();
+
 
 		}
 		in.close();
