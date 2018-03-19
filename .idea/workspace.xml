@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4033e5e1-5264-46c1-be66-2893de905eda" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/scenes/example_textured2.scene" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/scenes/textured_monkey.scene" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/data/scenes/example1.scene" afterPath="$PROJECT_DIR$/data/scenes/example1.scene" />
-      <change beforePath="$PROJECT_DIR$/data/scenes/example_textured.scene" afterPath="$PROJECT_DIR$/data/scenes/example_textured.scene" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/DepthBuffer.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/DepthBuffer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/GraphicsWrapper.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/GraphicsWrapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/ImageComponent.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/ImageComponent.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Lighting$Light.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Lighting$Light.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Lighting.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Lighting.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Mesh.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Mesh.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Rasterizer.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Rasterizer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Renderer.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Renderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Renderer_v0.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Renderer_v0.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Texture.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/Texture.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/TextureShader.class" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/TextureShader.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/scenes/example_textured.scene" afterPath="$PROJECT_DIR$/out/production/3D-Rendering-Engine/scenes/example_textured.scene" />
-      <change beforePath="$PROJECT_DIR$/src/DepthBuffer.java" afterPath="$PROJECT_DIR$/src/DepthBuffer.java" />
-      <change beforePath="$PROJECT_DIR$/src/GraphicsWrapper.java" afterPath="$PROJECT_DIR$/src/GraphicsWrapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/Lighting.java" afterPath="$PROJECT_DIR$/src/Lighting.java" />
-      <change beforePath="$PROJECT_DIR$/src/Mesh.java" afterPath="$PROJECT_DIR$/src/Mesh.java" />
-      <change beforePath="$PROJECT_DIR$/src/Rasterizer.java" afterPath="$PROJECT_DIR$/src/Rasterizer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Renderer.java" afterPath="$PROJECT_DIR$/src/Renderer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Renderer_v0.java" afterPath="$PROJECT_DIR$/src/Renderer_v0.java" />
-      <change beforePath="$PROJECT_DIR$/src/Texture.java" afterPath="$PROJECT_DIR$/src/Texture.java" />
-      <change beforePath="$PROJECT_DIR$/src/TextureShader.java" afterPath="$PROJECT_DIR$/src/TextureShader.java" />
+      <change beforePath="$PROJECT_DIR$/images/rabbit2.PNG" afterPath="$PROJECT_DIR$/images/rabbit2.PNG" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example1.scene" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example1.scene" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/scenes/example1.scene">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -121,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Renderer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Renderer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Renderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="-380">
               <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -229,31 +204,6 @@
               <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
               <item name="3D-Rendering-Engine" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3D-Rendering-Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="mesh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3D-Rendering-Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="mesh" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3D-Rendering-Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3D-Rendering-Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3D-Rendering-Engine" type="b2602c69:ProjectViewProjectNode" />
@@ -433,15 +383,16 @@
       <updated>1521388424338</updated>
       <workItem from="1521388428146" duration="1988000" />
       <workItem from="1521423011858" duration="4151000" />
-      <workItem from="1521476671650" duration="5001000" />
+      <workItem from="1521476671650" duration="5842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11140000" />
+    <option name="totallyTimeSpent" value="11981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -456,7 +407,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -768,7 +719,7 @@
         <state relative-caret-position="210">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,16 +761,6 @@
             <element signature="e#2430#2431#0" expanded="true" />
             <element signature="e#2467#2468#0" expanded="true" />
             <element signature="e#2501#2502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,6 +818,16 @@
         <state relative-caret-position="210">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
