@@ -1,10 +1,16 @@
 
 import algebra.*;
 
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.util.Scanner;
+
 /**
  * The Renderer class drives the rendering pipeline: read in a scene, projects
  * the vertices and rasterizes every faces / edges.
  * @author: cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class Renderer {
 
@@ -133,7 +139,6 @@ public class Renderer {
         }
     }
     public static void main (String[] args) {
-
         if (args.length == 0) {
             System.out.println("usage: java Renderer <scene_file>");
         } else {
@@ -146,17 +151,24 @@ public class Renderer {
             }
         }
 
+        screen.AddListenerFrame();
+
         /* wireframe rendering */
         renderWireframe ();
         screen.swapBuffers ();
-        wait (3);
+        //wait (3);
+
+        // Hold on until enter is pressed
+        waitEnterKey();
 
         /* solid rendering, no lighting */
         screen.clearBuffer ();
         shader.reset ();
         renderSolid ();
         screen.swapBuffers ();
-        wait (1);
+
+        // Hold on until enter is pressed
+        waitEnterKey();
         
     	/* solid rendering, with lighting */
         screen.clearBuffer ();
@@ -164,7 +176,9 @@ public class Renderer {
         setLightingEnabled (true);
         renderSolid ();
         screen.swapBuffers ();
-        wait (1);
+
+        // Hold on until enter is pressed
+        waitEnterKey();
         
         /* solid rendering, with texture */
         screen.clearBuffer ();
@@ -176,7 +190,9 @@ public class Renderer {
         setLightingEnabled (true);
         renderSolid ();
         screen.swapBuffers ();
-        wait (1);
+
+        // Hold on until enter is pressed
+        waitEnterKey();
 
         /* solid rendering, with texture combined with base color*/
         screen.clearBuffer ();
@@ -189,9 +205,20 @@ public class Renderer {
         setLightingEnabled (true);
         renderSolid ();
         screen.swapBuffers ();
-        wait(2);
+        //wait(2);
+
+        // Hold on until enter is pressed
+        waitEnterKey();
 
         screen.destroy ();
-  	System.exit (0);
+        System.exit (0);
+    }
+
+    private static void waitEnterKey() {
+        // Hold on until enter is pressed
+        do {
+            wait(1);
+        } while(!screen.IsEnterPressed());
+        screen.ResetEnterPressed();
     }
 }

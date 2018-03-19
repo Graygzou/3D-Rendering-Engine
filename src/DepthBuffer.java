@@ -1,4 +1,7 @@
-
+/**
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
+ */
 
 import java.lang.Double;
 

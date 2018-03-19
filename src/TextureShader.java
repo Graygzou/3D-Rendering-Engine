@@ -6,6 +6,8 @@ import java.awt.*;
  * Simple shader that just copy the interpolated color to the screen,
  * taking the depth of the fragment into acount.
  * @author: cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class TextureShader extends Shader {
     

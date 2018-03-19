@@ -8,7 +8,7 @@ data/mesh/Basics/colored_stfdbunny.off
 # camera's y vector:
 0.0 -1.0 0.0
 # focal length:
-3500
+5000
 # w and h (pixels):
 640 480
 # ambient light intensity Ia

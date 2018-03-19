@@ -6,6 +6,8 @@
 
 
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.geom.*;
 import java.awt.image.*;
 import javax.swing.*;
@@ -51,6 +53,8 @@ public class GraphicsWrapper {
   private BufferedImage backBuffer = null ;
   private BufferedImage frontBuffer = null ;
 
+  private boolean isEnterPressed = false;
+
   private void init() {
     backBuffer = new BufferedImage (width * pixelSize, height * pixelSize, BufferedImage.TYPE_INT_ARGB) ;
 
@@ -74,6 +78,26 @@ public class GraphicsWrapper {
     myFrame.add("Center", drawComp );
     myFrame.pack();
     myFrame.setVisible(true);
+  }
+
+  // Allow to register listener to the frame
+  public void AddListenerFrame() {
+      myFrame.addKeyListener(new KeyAdapter()
+      {
+          public void keyPressed(KeyEvent evt)
+          {
+              if(evt.getKeyCode() == KeyEvent.VK_ENTER)
+                  isEnterPressed = true;
+          }
+      });
+  }
+
+  public boolean IsEnterPressed() {
+      return isEnterPressed;
+  }
+
+  public void ResetEnterPressed() {
+      isEnterPressed = false;
   }
 
   /**

@@ -8,6 +8,8 @@ import algebra.*;
  * which will produce the final color of the fragment.
  *
  * @author morin, chambon, cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class Rasterizer {
     

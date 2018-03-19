@@ -8,6 +8,8 @@ import algebra.*;
  * Defines a triangle based mesh.
  * A mesh is constructed by interpretting the data given in an OFF file.
  * @author smondet gg cdehais
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class Mesh {
 

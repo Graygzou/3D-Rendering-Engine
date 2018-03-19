@@ -1,6 +1,9 @@
 import java.lang.*; import java.util.*; import algebra.*;
-/* * The Lighting class describes a scene lighting environment
- * @author: gmorin, smondet */
+/** The Lighting class describes a scene lighting environment
+ * @author: gmorin, smondet
+ * @author: Axel Grau
+ * @author: Grégoire Boiron <gregoire.boiron@gmail.com>
+ */
 public class Lighting {
     static final int NONE = 0 ;    static final int AMBIENT = 1 ;
     static final int POINT = 2 ;

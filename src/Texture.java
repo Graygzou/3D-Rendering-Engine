@@ -1,4 +1,3 @@
-
 import java.awt.*;
 import java.awt.image.*;
 import java.io.*;
@@ -6,6 +5,8 @@ import javax.imageio.ImageIO;
 
 /**
  * 2D Texture class.
+ * @author Axel Grau
+ * @author Grégoire Boiron <gregoire.boiron@gmail.com>
  */
 public class Texture {
     int width;
